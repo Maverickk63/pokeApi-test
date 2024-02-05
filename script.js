@@ -8,7 +8,7 @@ fetch(url)
         return response.json();
       })
       .then(data => {
-        console.log(data);
+        console.log(data.name);
       })
       .catch(error => {
         console.error('Error:', error);
